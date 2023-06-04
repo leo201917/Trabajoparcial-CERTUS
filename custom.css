@@ -1,0 +1,138 @@
+/* Fuentes externas */
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+
+/* Estilos global */
+* {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 1.05em;
+    color: #1c1c1c;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(background.jpeg);
+    background-attachment: fixed;
+}
+
+/* Cabecera */
+header {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color : #ffffff;
+    background-color: #E93F01;
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Estilo titulo */
+h1 {
+    font-size: 3em;
+    font-family: 'Alkatra', cursive;
+    margin: 0px;
+    text-align: center;
+    color:#fff;
+}
+h2 {
+    font-size: 1.5em;
+    color: #154686;
+}
+
+header > h2 {
+    text-align: center;
+    margin: 0px;
+    color:#fff;
+}
+
+/* Pagina Formulario */
+.pageform{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f9f2dd;
+    padding: 20px 40px;
+}
+
+/* Pagina Catalogo */
+main.pageCatalogo {
+    font-size: 1em;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: papayawhip;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Articulos */
+article {
+    width: 23%;
+    min-width: 280px;
+    display: inline-block;
+    border: #154686 2px solid;
+    margin: 20px 7px 0px;
+}
+
+article:hover{
+    border: #BF0F0F 2px solid;
+}
+
+.imgProduct {
+    width: 100%;
+}
+
+article > h3 {
+    margin: 6px;
+    font-weight: 500;
+}
+
+article > p {
+    margin: 10px 0px;
+}
+
+article > button{
+    margin-bottom: 20px;
+    font-size: 1em;
+    padding: 6px 15px;
+}
+
+.precioOriginal {
+    text-decoration: line-through;
+}
+
+.precioDescuento {
+    color: #CF5412;
+    font-weight: 500;
+}
+
+.precioFinal {
+    color: #BF0F0F;
+    font-weight: bold;
+}
+
+
+/* Pie de página */
+footer{
+    background: #0F0300;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Elementos del formulario */
+label {
+    display: block;
+}
+
+#formCreateAccount > div {
+    margin-bottom: 20px;
+}
+
+.formElement{
+    width: 100%;
+}
